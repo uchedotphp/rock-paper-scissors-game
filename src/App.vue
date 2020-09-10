@@ -19,18 +19,20 @@ import HelloWorld from "./components/HelloWorld.vue";
 export default {
   name: "app",
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+  },
 };
 </script>
 
 <style>
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  font-family: "Barlow Semi Condensed", sans-serif;
 }
 </style>
