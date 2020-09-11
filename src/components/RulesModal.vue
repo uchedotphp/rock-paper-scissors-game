@@ -8,12 +8,13 @@
       rules
     </button>
 
-    <el-dialog
+    <!-- <el-dialog
       class="h-full"
       :visible.sync="openRulesModal"
       center
       fullscreen
       custom-class="md:bg-transparent"
+      :show-close="show"
     >
       <div
         class="grid grid-cols-1 container mx-auto py-10 md:bg-white md:w-7/12 md:flex md:mt-56 md:rounded-lg"
@@ -37,6 +38,24 @@
           </button>
         </span>
       </div>
+    </el-dialog> -->
+
+    <el-dialog
+      title="Warning"
+      :visible.sync="openRulesModal"
+      width="30%"
+      center
+    >
+      <span
+        >It should be noted that the content will not be aligned in center by
+        default</span
+      >
+      <span slot="footer" class="dialog-footer">
+        <el-button @click="openRulesModal = false">Cancel</el-button>
+        <el-button type="primary" @click="openRulesModal = false"
+          >Confirm</el-button
+        >
+      </span>
     </el-dialog>
   </div>
 </template>
