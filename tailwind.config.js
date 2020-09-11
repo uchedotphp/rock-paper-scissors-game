@@ -24,6 +24,10 @@ module.exports = {
         radialGradientOne: "hsl(214, 47%, 23%)",
         radialGradientTwo: "hsl(237, 49%, 15%)",
       },
+      borderWidth: {
+        gameMobile: "20px",
+        gameDesktop: "25px",
+      },
     },
   },
   variants: {},
