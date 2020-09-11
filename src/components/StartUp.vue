@@ -9,23 +9,30 @@
         repellat impedit, quod aliquid.
       </p>
 
-      <div class="mx-auto">
-        <button
-          class="bg-transparent border-2 border-gray-500 px-8 py-2 rounded-md uppercase"
-        >
-          rules
-        </button>
-      </div>
+      <RulesModal />
     </div>
   </div>
 </template>
 
 <script>
 import ScoreCard from "@/components/ScoreCard";
+import RulesModal from "@/components/RulesModal";
 export default {
   name: "StartUpComponent",
   components: {
     ScoreCard,
+    RulesModal,
+  },
+  methods: {
+    openRulesModal() {
+      this.$alert(
+        "<strong>This is <i>HTML</i> string</strong>",
+        "HTML String",
+        {
+          dangerouslyUseHTMLString: true,
+        }
+      );
+    },
   },
 };
 </script>
