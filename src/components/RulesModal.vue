@@ -7,6 +7,7 @@
     >
       rules
     </button>
+    <el-button :plain="true" @click="open">Show message</el-button>
 
     <!-- <el-dialog
       class="h-full"
@@ -68,6 +69,21 @@ export default {
       show: false,
       openRulesModal: false,
     };
+  },
+  methods: {
+    open() {
+      this.$message("This is a message.");
+    },
+
+    openVn() {
+      const h = this.$createElement;
+      this.$message({
+        message: h("p", null, [
+          h("span", null, "Message can be "),
+          h("i", { style: "color: teal" }, "VNode"),
+        ]),
+      });
+    },
   },
 };
 </script>
