@@ -2,7 +2,7 @@
   <div
     class="border-4 rounded-lg border-headerOutline p-5 grid grid-cols-2 uppercase"
   >
-    <p class="flex items-center">
+    <p class="flex items-center font-bold text-2xl leading-none">
       rock <br />
       paper <br />
       scissors
