@@ -7,7 +7,6 @@
     >
       rules
     </button>
-    <el-button :plain="true" @click="open">Show message</el-button>
 
     <!-- <el-dialog
       class="h-full"
@@ -40,24 +39,6 @@
         </span>
       </div>
     </el-dialog> -->
-
-    <el-dialog
-      title="Warning"
-      :visible.sync="openRulesModal"
-      width="30%"
-      center
-    >
-      <span
-        >It should be noted that the content will not be aligned in center by
-        default</span
-      >
-      <span slot="footer" class="dialog-footer">
-        <el-button @click="openRulesModal = false">Cancel</el-button>
-        <el-button type="primary" @click="openRulesModal = false"
-          >Confirm</el-button
-        >
-      </span>
-    </el-dialog>
   </div>
 </template>
 
@@ -70,21 +51,7 @@ export default {
       openRulesModal: false,
     };
   },
-  methods: {
-    open() {
-      this.$message("This is a message.");
-    },
-
-    openVn() {
-      const h = this.$createElement;
-      this.$message({
-        message: h("p", null, [
-          h("span", null, "Message can be "),
-          h("i", { style: "color: teal" }, "VNode"),
-        ]),
-      });
-    },
-  },
+  methods: {},
 };
 </script>
 
