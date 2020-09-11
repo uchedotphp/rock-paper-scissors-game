@@ -16,7 +16,9 @@
       custom-class="md:bg-transparent"
       :show-close="show"
     >
-      <div class="grid grid-cols-1 container mx-auto py-10">
+      <div
+        class="grid grid-cols-1 container mx-auto py-10 md:bg-white md:w-7/12 md:flex md:mt-56 md:rounded-lg"
+      >
         <h1 class="uppercase font-bold mx-auto text-darkText text-3xl">
           rules
         </h1>
