@@ -1,5 +1,5 @@
 <template>
-  <div class="mx-auto">
+  <div class="mx-auto md:mx-0 md:flex md:justify-end">
     <button
       @click="openRulesModal = true"
       type="button"
