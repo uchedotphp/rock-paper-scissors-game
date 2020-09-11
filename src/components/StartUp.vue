@@ -23,17 +23,6 @@ export default {
     ScoreCard,
     RulesModal,
   },
-  methods: {
-    openRulesModal() {
-      this.$alert(
-        "<strong>This is <i>HTML</i> string</strong>",
-        "HTML String",
-        {
-          dangerouslyUseHTMLString: true,
-        }
-      );
-    },
-  },
 };
 </script>
 
