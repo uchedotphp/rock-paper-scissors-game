@@ -1,5 +1,8 @@
 <template>
-  <div id="app" class="app">
+  <div
+    id="app"
+    class="bg-gradient-to-br from-radialGradientOne to-radialGradientTwo"
+  >
     <router-view></router-view>
   </div>
 </template>
@@ -18,7 +21,7 @@ export default {
   padding: 0;
 }
 
-.app {
+body {
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 </style>
