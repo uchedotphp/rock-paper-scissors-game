@@ -4,12 +4,8 @@
       class="px-6 md:px-64 h-screen text-white grid grid-cols-1 content-center"
     >
       <ScoreCard />
-      <p class="bg-black my-24">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
-        distinctio consectetur aperiam quas ipsa similique doloribus corrupti,
-        explicabo itaque minima fuga cumque harum adipisci sed laboriosam
-        repellat impedit, quod aliquid.
-      </p>
+
+      <GameArea />
 
       <RulesModal />
     </div>
@@ -18,11 +14,13 @@
 
 <script>
 import ScoreCard from "@/components/ScoreCard";
+import GameArea from "@/components/GameArea";
 import RulesModal from "@/components/RulesModal";
 export default {
   name: "StartUpComponent",
   components: {
     ScoreCard,
+    GameArea,
     RulesModal,
   },
 };
