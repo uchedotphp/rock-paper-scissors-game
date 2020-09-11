@@ -2,7 +2,7 @@
   <div class="my-16">
     <div class="flex flex-wrap">
       <!-- <div class="bg-blue-600 w-6/12"> -->
-      <div class="mx-auto mt-5 mb-5">
+      <div class="mt-5 mb-5">
         <div
           class="border-gameMobile border-paperGradient rounded-full p-8 bg-gray-400"
         >
@@ -18,7 +18,7 @@
       </div>
       <!-- </div> -->
       <!-- <div class="bg-yellow-400 w-6/12"> -->
-      <div class="mx-auto mt-5 mb-5">
+      <div class="mt-5 mb-5">
         <div
           class="border-gameMobile border-scissorsGradientOne rounded-full p-8 bg-gray-400"
         >
