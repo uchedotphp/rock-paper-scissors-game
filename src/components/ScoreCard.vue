@@ -1,6 +1,6 @@
 <template>
   <div
-    class="border-4 rounded-lg border-headerOutline p-5 grid grid-cols-2 uppercase"
+    class="border-4 rounded-lg border-headerOutline pl-5 pr-3 py-5 grid grid-cols-2 uppercase"
   >
     <p class="flex items-center font-bold text-xl leading-4">
       rock <br />
