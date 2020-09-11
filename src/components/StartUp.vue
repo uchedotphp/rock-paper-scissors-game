@@ -1,6 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <div class="px-6 h-screen text-white grid grid-cols-1 content-center">
+    <div
+      class="px-6 md:px-64 h-screen text-white grid grid-cols-1 content-center"
+    >
       <ScoreCard />
       <p class="bg-black my-24">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione
